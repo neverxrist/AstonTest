@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class NumComp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        float a = scanner.nextInt(),
-                b = scanner.nextInt();
+        float a = scanner.nextFloat(),
+                b = scanner.nextFloat();
         if (a>b) {
             System.out.println("a>b");
         } else if (a<b) {
